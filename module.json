@@ -1,0 +1,30 @@
+{
+  "name": "alteria",
+  "title": "Alteria",
+  "description": "",
+  "author": "R20Converter",
+  "version": "0.13.3",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "1.0.0",
+  "system": "dnd5e",
+  "packs": [
+    {
+      "name": "journal",
+      "label": "Handouts (Alteria)",
+      "path": "packs/journal.db",
+      "module": "alteria",
+      "entity": "JournalEntry",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "actors",
+      "label": "Actors (Alteria)",
+      "path": "packs/actors.db",
+      "module": "alteria",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    }
+  ]
+}
